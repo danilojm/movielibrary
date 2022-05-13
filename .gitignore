@@ -552,3 +552,9 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Metadata ###
+.metadata/
+
+### MVN ###
+.mvn/
