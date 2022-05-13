@@ -1,0 +1,40 @@
+header {
+  background-color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+.mlibrary-contact-title {
+    display: flex;
+    align-items: center;
+}
+
+.mlibrary-nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    color: #000;
+}
+
+.mlibrary-nav-content h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;    
+}
+
+.mlibrary-nav-content a svg{
+    max-height: 50px;
+    max-width: 50px; 
+    height: 30px;
+    width: 50px;  
+}
+
+.mlibrary-contact-container {
+    display: flex;
+}
+
+.mlibrary-contact-link {
+    margin: 0 0 0 10px;
+
+}
