@@ -6,35 +6,42 @@ header {
 }
 
 .mlibrary-contact-title {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .mlibrary-nav-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;    
-    color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
 }
 
 .mlibrary-nav-content h1 {
-    margin: 0;
-    font-weight: 700;
-    font-size: 24px;    
+  margin: 0;
+  font-weight: 700;
+  font-size: 24px;
 }
 
-.mlibrary-nav-content a svg{
-    max-height: 50px;
-    max-width: 50px; 
-    height: 30px;
-    width: 50px;  
+.mlibrary-nav-content a svg {
+  max-height: 50px;
+  max-width: 50px;
+  height: 30px;
+  width: 50px;
 }
 
 .mlibrary-contact-container {
-    display: flex;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
 }
 
 .mlibrary-contact-link {
-    margin: 0 0 0 10px;
+  margin: 0 0 0 10px;
+}
 
+a,
+a:hover {
+  text-decoration: none;
+  color: unset;
 }

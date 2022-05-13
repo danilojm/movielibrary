@@ -7,7 +7,7 @@ function Navbar() {
       <nav className="container">
         <div className="mlibrary-nav-content">
           <h1 className="mlibrary-contact-title">Movies Library</h1>
-          <a href="https://github.com/danilojm/movielibrary">
+          <a href="https://github.com/danilojm/movielibrary" target="_blank" rel="noreferrer">
             <div className="mlibrary-contact-container">
               <GithubIcon />
               <p className="mlibrary-contact-link">/danilojm</p>
