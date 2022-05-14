@@ -1,4 +1,5 @@
-import './styles.css'
+import { Link } from "react-router-dom";
+import "./styles.css";
 
 function Form() {
   const movie = {
@@ -12,7 +13,11 @@ function Form() {
 
   return (
     <div className="mlibrary-form-container">
-      <img className="mlibrary-movie-card-image" src={movie.image} alt={movie.title} />
+      <img
+        className="mlibrary-movie-card-image"
+        src={movie.image}
+        alt={movie.title}
+      />
       <div className="mlibrary-card-bottom-container">
         <h3>{movie.title}</h3>
         <form className="mlibrary-form">
@@ -36,7 +41,11 @@ function Form() {
             </button>
           </div>
         </form>
-        <button className="btn btn-primary mlibrary-btn mt-3">Cancelar</button>
+        <Link to="/">
+          <button className="btn btn-primary mlibrary-btn mt-3">
+            Cancelar
+          </button>
+        </Link>
       </div>
     </div>
   );
